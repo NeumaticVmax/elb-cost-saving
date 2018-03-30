@@ -1,20 +1,20 @@
 {
-  "profile": "kaz",
-  "region": "ap-northeast-1",
-  "nameElb": "wd-elb",
-  "cnameElb": "wd.kzsrv.com",
+  "profile": "your-profile-name",
+  "region": "your-region-name",
+  "nameElb": "name-of-elb",
+  "cnameElb": "cname-of-elb",
   "subnetsElb": [
-    "subnet-3698e27f",
-    "subnet-031dab58"
+    "subnet-xxx",
+    "subnet-xxx"
   ],
   "SecurityGroupsElb": [
-    "sg-5692092f"
+    "sg-xxx"
   ],
-  "nameTargetGroup": "wd-elb-target-group",
-  "vpcTargetGroup": "vpc-ddf256ba",
-  "targetInstance": "i-076bf4701bbe37466",
-  "cnameEc2": "sun.kzsrv.com",
-  "certificateArn": "arn:aws:acm:ap-northeast-1:791226764925:certificate/0bed9077-60ca-4fd7-ba71-d26dae835369",
-  "hostedZoneId": "Z1E6PY04UCQGJY",
+  "nameTargetGroup": "your-target-group-name",
+  "vpcTargetGroup": "vpc-xxx",
+  "targetInstance": "i-xxx",
+  "cnameEc2": "cname-of-targetInstance",
+  "certificateArn": "arn:aws:acm:xxx",
+  "hostedZoneId": "xxx",
   "endpoint": "http://169.254.169.254/latest/meta-data/public-hostname/"
 }
